@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Chatbot Section Styles */
+.chatbot {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px; /* Make chat section much larger */
+  padding: 20px;
+}
+
+.chatbot h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #4a4a4a;
+}
+
+.chatbot input[type='text'] {
+  width: 100%;
+  height: 50px; /* Taller input box */
+  padding: 12px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.chatbot button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.chatbot button:hover {
+  background-color: #005bb5;
+}
+
+.chatbot p {
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  min-height: 300px; /* Larger response display area */
+  overflow-y: auto; /* Add scroll for large responses */
+  white-space: pre-wrap;
+}
+
+/* File Upload and Result Section Styles */
+.file-upload,
+.result-display {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4a4a4a;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #0070f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
