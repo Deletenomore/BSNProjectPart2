@@ -87,6 +87,9 @@ section {
 .file-upload,
 .result-display {
   margin-bottom: 20px;
+  overflow: auto;
+  white-space: pre-wrap; /* Preserve newlines */
+  word-break: break-word; /* Handle long words */
 }
 
 h2 {
@@ -106,3 +109,4 @@ button {
 button:hover {
   background-color: #005bb5;
 }
+
